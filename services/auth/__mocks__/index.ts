@@ -9,7 +9,7 @@ export const login = async <T>(payload: T) => {
         status: 200,
         data: {
           message: "OK",    
-          data: "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiNGZiZmI3MDktOGY3My00ZGI1LWFlNmItODQwMTYxNmNmMzk1IiwiaWF0IjoxNjY1NDI3MzU1LCJleHAiOjE2NjU0NDg5NTV9.JHNyECcrcyt3SGQl5QpbGoeyzMEMWaBvbwc7YtZppv-wsnS945rGr4g2WagU7RfSGfLWoDXf6rR48SEBuzoEOw"
+          data: "xyz789"
         }
       })
     },1000)
