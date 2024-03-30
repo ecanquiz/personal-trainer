@@ -48,7 +48,7 @@ export const updatePassword = <T>(payload: T) => {
 
 export const registerUser = async <T>(payload: T) => {
   return new Promise((resolve, reject) => {
-    const token = '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'
+    const token = 'xyz789'
     setTimeout(()=> {
       console.log('token:', token)
       return resolve(token)
