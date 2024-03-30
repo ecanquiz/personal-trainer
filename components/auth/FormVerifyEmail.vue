@@ -25,7 +25,10 @@ const sendVerification = () => {
 <template>
   <div>
     <form @submit.prevent="sendVerification">
-      <AppBtn type="submit" text="Verify Email" />
+      <!--AppBtn type="submit" text="Verify Email" /-->
+     <UButton data-testid="login-link" color="lime">
+        Verify Email
+    </UButton>
     </form>
     <AppFlashMessage :message="message" :error="error" />
   </div>

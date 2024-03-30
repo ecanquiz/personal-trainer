@@ -17,7 +17,7 @@
       :error='error'
     />
     <p class="mt-2 text-center text-gray-500">
-      <UButton to="/login" data-testid="login-link">
+      <UButton to="/login" data-testid="login-link" color="lime">
         ¿Ya registrado?
       </UButton>
     </p>

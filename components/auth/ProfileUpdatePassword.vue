@@ -12,7 +12,7 @@ const {
 
 <template>
   <FormUpdatePassword
-    class="p-5 bg-white border rounded shadow"
+    class="p-5 border rounded shadow"
     @submit='updatePassword'      
     :sending='sending'
     :error='error'

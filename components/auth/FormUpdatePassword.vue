@@ -59,11 +59,16 @@ const submit = async () => {
          data-testid="password-confirm-input"
       />
     </div>
-    <AppBtn type="submit"
+    <!--AppBtn type="submit"
       :text="sending ? 'Guardando...': 'Guardar'"
       :isDisabled="sending"
       data-testid="submit-button"
-    />    
+    /-->    
+    
+    <UButton data-testid="login-link" color="lime">
+        {{sending ? 'Guardando...': 'Guardar'}}
+    </UButton>
+    
     <AppFlashMessage :message="message" :error="error" />
   </form>
 </template>

@@ -1,5 +1,5 @@
 .btn {
-    @apply text-white py-2 px-4 rounded transition;
+    @apply text-black py-2 px-4 rounded transition;
 }
 
 .btn-danger {
@@ -11,11 +11,11 @@
 }
 
 .btn-primary {
-    @apply bg-blue-500 hover:bg-blue-700;
+    @apply bg-[#D2FF00] hover:bg-blue-700;
 }
 
 .btn-success {
-    @apply bg-green-500 hover:bg-green-700;
+    @apply bg-[#D2FF00] hover:bg-green-700;
 }
 
 .btn-xs {
