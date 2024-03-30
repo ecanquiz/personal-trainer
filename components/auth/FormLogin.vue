@@ -78,6 +78,7 @@
       </label>
 
       <UButton
+        color="lime"
         class="justify-center"
         type="submit"
         :isDisabled='props.sending'

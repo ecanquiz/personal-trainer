@@ -99,6 +99,7 @@
     </UFormGroup> 
     
     <UButton
+        color="lime"
         type="submit"
         :isDisabled='sending'
         data-testid="submit-btn"
