@@ -48,10 +48,10 @@ export const updatePassword = <T>(payload: T) => {
 
 export const registerUser = async <T>(payload: T) => {
   return new Promise((resolve, reject) => {
-    const token = 'xyz789'
+    const mockToken = 'xyz789'
     setTimeout(()=> {
-      console.log('token:', token)
-      return resolve(token)
+      console.log('mockToken:', mockToken)
+      return resolve(mockToken)
     },1000)
   })
 }
