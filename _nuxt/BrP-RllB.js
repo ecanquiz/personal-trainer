@@ -1,1 +1,0 @@
-import{f as t,N as l,aR as r,aS as m,k as e,o as p,h as i,H as u,az as c,a4 as d,q as f}from"./BCHUnoHX.js";const S=t({__name:"Slideovers.client",setup(v){const o=l(r),{isOpen:a}=m();return(_,s)=>e(o)?(p(),i(d(e(o).component),u({key:0},e(o).props,{modelValue:e(a),"onUpdate:modelValue":s[0]||(s[0]=n=>c(a)?a.value=n:null)}),null,16,["modelValue"])):f("",!0)}});export{S as default};

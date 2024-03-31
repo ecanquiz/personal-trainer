@@ -1,0 +1,1 @@
+import{h as t}from"./9QP_JJzH.js";import{f as a,aX as r}from"./CiMQqf--.js";const u=a({__name:"SelectTheme",setup(o){const e=t({selector:"body",attribute:"data-theme",valueDark:"night",valueLight:"winter"});return r(e),(s,n)=>null}});export{u as _};
