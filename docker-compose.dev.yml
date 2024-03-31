@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  web:    
+    image: node:20.11.1
+    ports:
+      - 3000:80    
+    volumes:
+      - ".:/nuxt"
+    environment:
+      NODE_ENV: development
+    working_dir: /nuxt
+    container_name: personal_trainer_dev_env
+    command: sh -c "cd /nuxt; npm install; npm run dev"

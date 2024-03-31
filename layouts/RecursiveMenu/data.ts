@@ -29,8 +29,7 @@ export default [{
       "menu_id":0,
       "path":"#",
       "icon":"printer",
-      "sort":1,
-      "icon": "",
+      "sort":1,      
       "children_menus": [
        {
           "id":5,
@@ -64,8 +63,7 @@ export default [{
       "menu_id":0,
       "path":"#",
       "icon":"users",
-      "sort":2,
-      "icon": "",
+      "sort":2,      
       "children_menus":[
         {
           "id":8,
@@ -121,8 +119,7 @@ export default [{
       "id":3,
       "title":"Development",
       "menu_id":0,
-      "path":"#",
-      "icon":"office",
+      "path":"#",      
       "sort":3,
       "icon": "apple",
       "children_menus":[
