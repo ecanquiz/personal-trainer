@@ -1,14 +1,19 @@
 <script setup lang="ts">
+import HostImage from "@/components/auth/HostImage.vue";
 definePageMeta({
   layout: "default",
 });
 </script>
 
 <template>
-  <div class="m-10 sm:my-20 bg-base-200">
+  <div class="m-20 sm:my-20 bg-base-200">
     <div class="sm:grid grid-cols-2 gap-4">
-      <div class="my-auto"><IconLogo class= "w-full h-full"/></div>
-      <div class="my-auto">
+      <div class="m-auto"><!--IconLogo class= "w-full h-full"/-->      
+       
+       <HostImage />
+      
+      </div>
+      <div class="m-auto">
         <div class="">
           <div class="text-[#6C63FF] wx-full mx-auto grid justify-items-stretch my-3">
             <p class="text-xl justify-self-center">Backend / Frontend</p>
@@ -28,4 +33,6 @@ definePageMeta({
     </div>
   </div>
 </template>
+
+
 
