@@ -32,6 +32,9 @@
   }
 
   const submit = async (event: FormSubmitEvent<any>) => {
+  
+  console.log('sdfsdf')
+  
     emit('submit', {
       email: state.email,
       password: state.password
@@ -40,7 +43,7 @@
 </script>
 
 <template>
-  <UForm :validate="validate" :state="state" class="space-y-4" @submit.prevent="submit">
+  <UForm :validate="validate" :state="state" class="space-y-4" @submit="submit">
     <UFormGroup label="Email" name="email">
       <UInput
         type="email"

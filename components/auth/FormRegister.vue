@@ -49,7 +49,7 @@
 </script>
 
 <template>
-  <UForm :validate="validate" :state="state" class="space-y-4" @submit.prevent="submit">
+  <UForm :validate="validate" :state="state" class="space-y-4" @submit="submit">
     <UFormGroup label="Name" name="name">
       <UInput
         type="text"
