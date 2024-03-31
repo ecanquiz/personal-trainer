@@ -1,9 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devServer: {
-    port: 3000, // 3000 by default, change to 8000 to production
-  },
-  //ssr: true,
+  ssr: true,
+  // baseURL: '/personal-trainer/',
+  //devServer: {
+  //  port: 3000, // 3000 by default, change to 8000 to production
+  //},
   runtimeConfig: {
     //secret: process.env.SECRET,
     public: {
