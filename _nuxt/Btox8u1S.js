@@ -1,1 +1,0 @@
-import{_ as o}from"./DlAUqK2U.js";import{o as s,c as t,y as a}from"./B1g9UxbC.js";const r={},c={id:"example1"};function n(e,_){return s(),t("div",c,[a(e.$slots,"default",{class:"myslot"},void 0,!0)])}const l=o(r,[["render",n],["__scopeId","data-v-a3fe6a9f"]]);export{l as H};
