@@ -15,7 +15,7 @@ const store = computed(() => useAuthStore())
       class="block px-4 py-2 text-sm hover:bg-gray-400"
     >
       <p v-if="store.authUser">{{ store.authUser.bank_description }}</p>
-      <p>{{ store.authUser ? store.authUser.name : 'Profile' }}</p> 
+      <p>{{ store.authUser && store.authUser.name ? store.authUser.name : 'Profile' }}</p> 
     </NuxtLink>
 
     <NuxtLink
