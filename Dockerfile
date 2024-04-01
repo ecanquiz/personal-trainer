@@ -5,7 +5,9 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-FROM nginx:1.23.1
-COPY --from=build /app/.output /opt/site
-COPY nginx.conf /etc/nginx/nginx.conf
+CMD [ "node", ".output/server/index.mjs" ] 
 
+## TODO
+#FROM nginx:1.23.1
+#COPY --from=build /app/.output/server /opt/site
+#COPY nginx.conf /etc/nginx/nginx.conf
