@@ -14,8 +14,23 @@ html {
   /*@apply font-body antialiased;*/
 }
 
+.section {
+  @apply flex justify-center min-h-screen;
+}
 
+[data-theme="dark"] {
+  @apply bg-[#000000] text-gray-100;
+}
 
+[data-theme="dark"] .bg-base-200{
+  @apply bg-[#000000] text-gray-100;
+}
+
+[data-theme="dark"] .bg-base-300{
+  @apply bg-[#000000] text-gray-100;
+}
+
+/*
 .section {
   @apply flex justify-center min-h-screen;
 }
@@ -43,6 +58,7 @@ html {
 [data-theme="night"] .bg-base-200{
   @apply bg-[#000000];
 }
+*/
 
 /*
 #111111

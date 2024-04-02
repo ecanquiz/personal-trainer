@@ -24,7 +24,7 @@ export default defineComponent({
     };
   },
   methods: {
-    handleClick(bodyPartClicked) {
+    handleClick(bodyPartClicked: any) {
       console.log(bodyPartClicked)
     }
   }

@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { useDark, useToggle } from '@vueuse/core'
+//import { useDark, useToggle } from '@vueuse/core'
 
-const isDark = useDark({
-  selector: 'body',
-  attribute: 'data-theme',
-  valueDark: 'night',
-  valueLight: 'winter'
-})
-const toggleDark = useToggle(isDark)
+//const isDark = useDark({
+//  selector: 'body',
+//  attribute: 'data-theme',
+//  valueDark: 'dark',
+//  valueLight: 'light'
+//})
+//const toggleDark = useToggle(isDark)
 </script>
 
 <template>

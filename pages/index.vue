@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HostImage from "@/components/auth/HostImage.vue";
+import HostImage from "@/components/auth/HostImage.client.vue";
 definePageMeta({
   layout: "default",
 });
@@ -8,10 +8,8 @@ definePageMeta({
 <template>
   <div class="m-20 sm:my-20 bg-base-200">
     <div class="sm:grid grid-cols-2 gap-4">
-      <div class="m-auto"><!--IconLogo class= "w-full h-full"/-->      
-       
-       <HostImage />
-      
+      <div class="m-auto">
+          <HostImage />
       </div>
       <div class="m-auto">
         <div class="">
