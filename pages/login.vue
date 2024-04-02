@@ -1,6 +1,6 @@
 <script setup lang="ts">  
   //import IconLogo from "../icon/Logo.vue"
-  import HostImage from "@/components/auth/HostImage.vue";
+  import HostImage from "@/components/auth/HostImage.client.vue";
   import FormLogin from "../components/auth/FormLogin.vue";
   import { useLogin } from '../composables/auth/useLogin'  
 
@@ -10,9 +10,11 @@
 <template>
   <div class="p-5">
     <!--IconLogo class= "flex justify-center pt-4 sm:justify-start sm:pt-0 w-1/4 y-1/4 h-auto m-auto bg-transparent"/-->
-    <HostImage><h2 class="text-2xl text-center mx-auto absolute bottom-0">Inicio de Sesión</h2></HostImage>
+    <HostImage>
+      <h2 class="text-2xl text-center absolute bottom-0 ml-56">Inicio de Sesión</h2>
+    </HostImage>
     <FormLogin
-      class="p-5 bg-base-200 rounded shadow"
+      class="p-5 bg-base-200 rounded shadow w-96 mx-auto"
       @submit='login($event)'      
       :sending='sending'
       :error='error'
