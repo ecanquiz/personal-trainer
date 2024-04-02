@@ -16,6 +16,7 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^20.11.30",
+    "@vite-pwa/nuxt": "^0.6.0",
     "gh-pages": "^4.0.0",
     "msw": "^2.2.13",
     "nuxt": "^3.6.5",
